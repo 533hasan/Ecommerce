@@ -8,7 +8,7 @@ function gtag() {
 
 /* Replace with your GA4 Measurement ID */
 gtag("js", new Date());
-gtag("config", "G-XXXXXXXXXX");
+gtag("config", " G-MP5PLDD42H");
 
 /* ===============================
    Product Object (GA4 format)
