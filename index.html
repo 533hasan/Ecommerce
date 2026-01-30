@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini E-commerce</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Tag Manager (GTM snippet goes here) -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+    </script>
+</head>
+<body>
+
+    <header>
+        <h1>Mini E-shop Demo</h1>
+    </header>
+
+    <main>
+
+        <!-- PRODUCT -->
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1570423879480-17931a16d8fa" alt="Shopping Cart" />
+            <h2 id="product-name">Cool Gadget</h2>
+            <p>Price: ৳<span id="price">1200</span></p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <!-- CART -->
+        <div class="cart">
+            <h3>Cart</h3>
+            <p id="cart-status">No items</p>
+            <button onclick="purchase()">Purchase</button>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
